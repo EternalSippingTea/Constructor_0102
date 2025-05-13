@@ -38,3 +38,8 @@ void PersegiPanjang :: inputdata(bangunDatar &bd) {
         cin >> bd.lebar;
         };
 
+void PersegiPanjang::outputdata(bangunDatar &bd) {
+    cout << " Luas : " << bd.hitungLuas() << endl;
+    cout << " Keliling : " << bd.hitungKeliling() << endl;
+};
+
