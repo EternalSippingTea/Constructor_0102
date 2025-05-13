@@ -6,3 +6,4 @@ class mahasiswa {
         mahasiswa(); // Constructor
 };
 
+mahasiswa :: mahasiswa() {
