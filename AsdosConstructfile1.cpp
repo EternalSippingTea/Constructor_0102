@@ -45,5 +45,6 @@ void PersegiPanjang::outputdata(bangunDatar &bd) {
 
 int main() {
     PersegiPanjang pP;
-   
+    bangunDatar bD;
+    
 }
