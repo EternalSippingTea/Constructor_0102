@@ -23,3 +23,10 @@ class bangunDatar {
             return 2 * (panjang + lebar);
         };
     
+    public:
+        //untuk mengakses panjang dan lebar
+        friend void PersegiPanjang::inputdata(bangunDatar &bd);
+        //untuk mengakses fungsi
+        friend void PersegiPanjang::outputdata(bangunDatar &bd);
+        
+};
