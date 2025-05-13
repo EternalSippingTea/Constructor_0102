@@ -35,3 +35,11 @@ void mahasiswa :: cetak() {
     cout << endl << " NIM : " << nim;
     cout << endl << " Nama : " << nama;
 }
+
+
+
+int main() {
+    mahasiswa mhs1(102030); // hanya NIM
+    mahasiswa mhs2("Andi"); // hanya Nama
+    mahasiswa mhs3(10203,"Santi"); // NIM dan Nama
+
