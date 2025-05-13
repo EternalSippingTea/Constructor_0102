@@ -9,3 +9,8 @@ class PersegiPanjang
         void inputdata(bangunDatar &bd);
         void outputdata(bangunDatar &bd);
 };
+
+class bangunDatar {
+    private:
+        float panjang;
+        float lebar;
