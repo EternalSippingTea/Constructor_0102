@@ -3,4 +3,4 @@ using namespace std;
 
 class mahasiswa {
    public:
-        mahasiswa()
+        mahasiswa(int nim
