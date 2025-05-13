@@ -30,3 +30,11 @@ class bangunDatar {
         friend void PersegiPanjang::outputdata(bangunDatar &bd);
         
 };
+
+void PersegiPanjang :: inputdata(bangunDatar &bd) {
+        cout << " Masukkan panjang: ";
+        cin >> bd.panjang;
+        cout << " Masukkan lebar: ";
+        cin >> bd.lebar;
+        };
+
